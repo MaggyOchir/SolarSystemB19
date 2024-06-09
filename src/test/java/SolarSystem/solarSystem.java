@@ -7,11 +7,16 @@ public class solarSystem {
         solar.star="2";
         solar.planet="2";
         System.out.println("the solar system is ready");
-
+// ----------------
         featureSun xros=new featureSun();
         xros.color="pink";
         xros.temp="24324kv";
         xros.size="0km";
+// ----------------
+        planet1 renox=new planet1();
+        renox.color="grey";
+        renox.size="10km";
+        renox.radius="5m";
     }
 
 }
